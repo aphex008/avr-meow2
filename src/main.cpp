@@ -59,18 +59,26 @@ void setup() {
     DDRC = B00111111; // Set pins A0-A5 output and A6-A7 input
     /* Init debug sequence */
     PORTC = B0001;
+    startPlayback(meow2, sizeof(meow2));
     delay(1000);
     PORTC = B0010;
+    startPlayback(meow2, sizeof(meow2));
     delay(1000);
     PORTC = B0100;
+    startPlayback(meow2, sizeof(meow2));
     delay(1000);
     PORTC = B1000;
+    startPlayback(meow2, sizeof(meow2));
     delay(1000);
     PORTC = B1111;
+    startPlayback(meow2, sizeof(meow2));
     delay(1000);
     PORTC = B0000;
+    startPlayback(meow2, sizeof(meow2));
     delay(1000);
     PORTC = B1111;
+    startPlayback(meow2, sizeof(meow2));
+    delay(1000);
 }
 
 void loop() {
