@@ -94,10 +94,10 @@ void loop() {
     charNumber++;
     if (charNumber == sizeof(code) - 1) {
         charNumber = 0;
-        delay(3000);
+        delay(4000);
     }
 
-    delay(3000);
+    delay(1500);
 }
 
 
